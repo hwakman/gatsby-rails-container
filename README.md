@@ -1,29 +1,37 @@
-# Gatsby Rails Container
-  <img 
+ <p align="center">
+  <a href="https://www.gatsbyjs.com">
+      <img 
        src="https://res.cloudinary.com/practicaldev/image/fetch/s--KDz-qHd---/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/j0xrwz8vsxkvc5b4nndy.png"
        alt="react_w_rails"
-       height="300px"
+       width="500"
    />
+  </a>
+</p>
 
-## To start project
+<h1 align="center">Rails + Gatsby Container</h1>
+
+<hr />
+
+<h2 align="center">To start the project</h2>
+
 ```
 - dip provision
 ```
 
-## Please prepare
+### Please prepare
 ```
 - Docker & Docker-compose
 - Dip
 ```
 
-## Resource
+### Resource
 ```
 - https://www.docker.com/
 - https://github.com/bibendi/dip
 ```
 
-## Command
-<table>
+<h2 align="center">Command</h2>
+<table align="center">
   <thead>
     <tr>
       <th>Command</th>
@@ -37,23 +45,23 @@
     </tr>
     <tr>
       <td>$ dip psql</td>
-      <td>Use to run posgresql command</td>
+      <td>Short command to run <b>posgresql</b> command from docker container</td>
     </tr>
     <tr>
       <td>$ dip bundle</td>
-      <td>Use to run bundle command</td>
+      <td>Short command to run <b>bundle</b> command from docker container</td>
     </tr>
     <tr>
       <td>$ dip rake</td>
-      <td>Use to run rake command</td>
+      <td>Short command to run <b>rake</b> command from docker container</td>
     </tr>
     <tr>
       <td>$ dip yarn</td>
-      <td>Use to run yarn command</td>
+      <td>Short command to run <b>yarn</b> command from docker container</td>
     </tr>
     <tr>
       <td>$ dip gatsby</td>
-      <td>Use to run gatsby command</td>
+      <td>Short command to run <b>gatsby</b> command from docker container</td>
     </tr>
   </tbody>
 </table>
