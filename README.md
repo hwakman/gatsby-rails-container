@@ -10,12 +10,6 @@
 
 <h1 align="center">Rails + Gatsby Container</h1>
 
-<h2 align="center">To start the project</h2>
-
-```
-- dip provision
-```
-
 ### Please prepare
 ```
 - Docker & Docker-compose
@@ -26,6 +20,12 @@
 ```
 - https://www.docker.com/
 - https://github.com/bibendi/dip
+```
+
+### Start the project
+
+```
+- dip provision
 ```
 
 <h2 align="center">Command</h2>
