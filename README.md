@@ -10,8 +10,6 @@
 
 <h1 align="center">Rails + Gatsby Container</h1>
 
-<hr />
-
 <h2 align="center">To start the project</h2>
 
 ```
@@ -41,7 +39,7 @@
   <tbody>
     <tr>
       <td>$ dip provision</td>
-      <td>Use to installation project</td>
+      <td>For run cammand to reset the project's environment</td>
     </tr>
     <tr>
       <td>$ dip psql</td>
