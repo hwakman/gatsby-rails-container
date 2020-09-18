@@ -1,9 +1,9 @@
  <p align="center">
   <a href="https://www.gatsbyjs.com">
       <img 
-       src="https://res.cloudinary.com/practicaldev/image/fetch/s--KDz-qHd---/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/j0xrwz8vsxkvc5b4nndy.png"
+       src="https://www.img.in.th/images/fe43229c24377f7386a418c09ba18fca.png"
        alt="react_w_rails"
-       width="500"
+       width=600"
    />
   </a>
 </p>
