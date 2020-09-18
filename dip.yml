@@ -1,0 +1,48 @@
+version: '4.1'
+
+environment:
+  COMPOSE_EXT: development
+
+compose:
+  files:
+    - docker-compose.yml
+
+interaction:
+    # Database section
+    psql:
+      description: Run Postgres psql console
+      service: db
+      command: psql -h pg -U postgres
+
+    # API section
+    bundle:
+      description: Run Bundler commands
+      service: api
+      command: bundle
+
+    rake:
+      description: Run Rake commands
+      service: api
+      command: bundle exec rake
+
+    rails:
+      description: Run Rails commands
+      service: api
+      command: bundle exec rails
+
+    # Web section
+    yarn:
+      description: Run Yarn commands
+      service: web
+      command: yarn
+    
+    gatsby:
+      description: Run gatsby-cloi commands
+      service: web
+      command: gatsby
+
+provision:
+  - dip compose down --volumes
+  - dip compose build
+  - dip compose up -d
+  - dip rails db:create db:migrate

@@ -1,0 +1,28 @@
+version: '3'
+services:
+    db:
+      image: postgres
+      volumes:
+        - ./api/tmp/db:/var/lib/postgresql/data
+      ports:
+        - 5432:5432
+      environment:
+        POSTGRES_PASSWORD: password
+
+    api:
+      build: ./api
+      volumes:
+        - ./api:/usr/src/app
+      ports:
+        - 3000:3000
+      depends_on:
+        - db
+
+    web:
+      build: ./site
+      volumes: 
+        - ./site:/usr/src/app
+      ports:
+        - 8000:8000
+      depends_on:
+        - api
