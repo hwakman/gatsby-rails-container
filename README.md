@@ -22,7 +22,7 @@
 - https://github.com/bibendi/dip
 ```
 
-## command
+## Command
 <table>
   <thead>
     <tr>
